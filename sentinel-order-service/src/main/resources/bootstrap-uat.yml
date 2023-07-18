@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: sentinel-order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        group: DEFAULT_GROUP
+        namespace: b2388c59-98b4-4887-b800-4a42be5363ba

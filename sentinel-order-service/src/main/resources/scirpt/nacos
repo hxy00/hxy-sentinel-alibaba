@@ -1,0 +1,17 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: sentinel-order-service
+  cloud:
+    sentinel:
+      transport:
+         dashboard: localhost:8080
+
+demo:
+    test: test
+
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: p-rocket-order
